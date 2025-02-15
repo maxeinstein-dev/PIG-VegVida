@@ -1,0 +1,525 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Lato:wght@400;700&family=Rufina:wght@400;700&display=swap");
+
+body,
+html {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none !important;
+}
+
+a.active {
+  text-decoration: none !important;
+}
+
+.header-home {
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.logo {
+  width: 75%;
+}
+.btn {
+  border-radius: 0px !important;
+}
+
+.link-tel {
+  color: #fff;
+  font-family: "Inter", serif;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 0px;
+}
+
+.btn-reserva {
+  color: #fff;
+  border: 2px solid #fff;
+  font-family: "Rufina", serif;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 48px;
+}
+
+h1,
+h2 {
+  color: #fff;
+  font-family: "Rufina", serif;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+h4 {
+  color: #fff;
+  font-family: "Lato", serif;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 150%;
+  letter-spacing: 2.7px;
+}
+
+h5 {
+  color: #233000;
+  font-family: "Rufina", serif;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.hero-text {
+  padding: 75px 0 100px 0;
+  display: flex;
+  gap: 20px;
+  flex-direction: column;
+}
+
+.hero-text h1 {
+  color: #fff;
+  font-family: "Rufina", serif;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 20px;
+}
+
+/* Main */
+
+.menu {
+  background: #fff;
+}
+
+.menu-div {
+  padding: 50px 0 75px 0;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.menu-div h2 {
+  color: #000;
+}
+
+.menu h4 {
+  color: #4d4d4d;
+}
+
+.card-menu {
+  height: 400px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.titulo-menu {
+  display: flex;
+  justify-content: space-around;
+  padding-top: 15px;
+  align-items: center;
+}
+
+.chef {
+  background: #ebf0e4;
+}
+
+.chef h2,
+.chef h4 {
+  color: #000;
+}
+
+.depoimentos {
+  background-color: #fff;
+  padding: 100px 0 100px 0;
+}
+
+.depoimentos h3 {
+  color: #000;
+  font-family: "Rufina", serif;
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: 5px;
+}
+
+.depoimentos h5 {
+  color: #000;
+  font-family: "Rufina", serif;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 48px;
+}
+
+.depoimentos p {
+  color: #4d4d4d;
+  font-family: "Lato", serif;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: 0.32px;
+}
+
+.depoimentos span {
+  color: #000;
+  font-family: "Rufina", serif;
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.reserva {
+  padding: 50px 0 60px 0;
+  background-color: #ebf0e4;
+}
+
+.reserva h2,
+.reserva h4 {
+  color: #000;
+}
+
+.text-reserva {
+  padding-bottom: 60px;
+}
+
+.reserva-button {
+  color: #000;
+  font-family: "Lato", serif;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: 0.48px;
+  border: 2px solid #000;
+}
+
+.reserva .row {
+  padding-bottom: 50px;
+}
+
+.btn-agora {
+  border: 2px solid #000;
+  background: #233000;
+  display: flex;
+  height: 8 0px;
+  padding: 20px 46px;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  color: #fff;
+  font-family: "Rufina", serif;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+/* Footer */
+
+footer {
+  background-color: #233000;
+  padding: 50px 0 16px 0;
+}
+
+.footer-content h4 {
+  color: #fff;
+  font-family: "Rufina", serif;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.footer-content h5 {
+  color: #fff;
+  font-family: "Lato", serif;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: 0.32px;
+}
+
+.btn-email {
+  display: flex;
+  width: 250px;
+  height: 50px;
+  padding: 0px 10px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  flex-shrink: 0;
+  border: 2px solid #fff;
+  color: #fff;
+  font-family: "Lato", serif;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 140%;
+  letter-spacing: 0.48px;
+  text-align: start;
+}
+
+.btn-email:hover {
+  color: #fff;
+  border: 2px solid #fff;
+}
+
+.btn-email::placeholder {
+  color: #fff;
+  position: absolute;
+}
+
+.btn-inscreva {
+  display: flex;
+  width: 200px;
+  height: 50px;
+  padding: 20px 46px;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  flex-shrink: 0;
+  background: #5e6600;
+  color: #fff;
+  font-family: "Rufina", serif;
+  white-space: nowrap;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.footer-content p {
+  color: #fff;
+  font-family: "Lato", serif;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: 0.28px;
+}
+
+.copyright h5 {
+  color: #fff;
+  font-family: "Lato", serif;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: 0.32px;
+}
+
+.copyright span {
+  font-weight: bold;
+  text-decoration: underline;
+}
+
+.copyright {
+  color: #fff;
+  font-size: 25px;
+}
+
+/* Menu */
+
+header {
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.hero-menu-text {
+  padding: 75px 0 100px 0;
+  display: flex;
+  gap: 20px;
+  flex-direction: column;
+}
+
+.hero-menu-text h1 {
+  color: #fff;
+  font-family: "Rufina", serif;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.entrada {
+  padding: 50px 0 50px 0;
+}
+/* 
+.entrada-text,
+.pratos-text,
+.bebidas-text {
+  padding: 100px 0 100px 0;
+} */
+
+.entrada h2,
+.pratos-text h2,
+.bebidas-text h2 {
+  color: #000;
+  font-family: "Rufina", serif;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.entrada h4,
+.pratos-text h4,
+.bebidas-text h4 {
+  color: #4d4d4d;
+  font-family: "Lato", serif;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: 2.7px;
+}
+
+.img-blueberry {
+  right: 0px;
+  top: -50px;
+}
+
+.item-cardapio {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.preco {
+  color: #000;
+  text-align: right;
+  font-family: "Rufina", serif;
+  text-align: right;
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  border-bottom: 2px dashed #000;
+}
+
+.prato {
+  color: #000;
+  font-family: "Rufina", serif;
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.descricao {
+  color: #4d4d4d;
+  font-family: "Lato", serif;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: 3.6px;
+}
+
+.img-entrada,
+.img-pratos,
+.img-bebidas {
+  height: 620px;
+}
+
+.img-avocado {
+  right: 0px;
+  top: 0px;
+}
+
+/* Contato */
+
+.hero-contato-text {
+  padding: 75px 0 50px 0;
+  display: flex;
+  gap: 20px;
+  flex-direction: column;
+}
+
+.hero-contato-text h1 {
+  color: #fff;
+  font-family: "Rufina", serif;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.hero-contato-text h4 {
+  white-space: pre-line;
+  line-height: normal;
+}
+
+.hero-funcionamento {
+  display: flex;
+  border-bottom: 2px dashed #fff;
+  white-space: nowrap;
+  justify-content: space-between;
+  color: #fff;
+}
+
+.hero-funcionamento h3 {
+  font-family: "Rufina", serif;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 48px;
+}
+
+.hero-funcionamento h5,
+.hero-horario h5 {
+  color: #fff;
+  font-family: "Rufina", serif;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 140%;
+  letter-spacing: 0.48px;
+}
+.localizacao {
+  padding: 100px 0 100px 0;
+}
+
+.laranja {
+  position: absolute;
+  top: -70px;
+}
+
+.localizacao h3 {
+  color: #233000;
+  font-family: "Rufina", serif;
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.btn-mapa {
+  display: inline-flex;
+  height: 70px;
+  padding: 20px 46px;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  flex-shrink: 0;
+  border: 2px solid #000;
+  color: #000;
+  font-family: "Rufina", serif;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
