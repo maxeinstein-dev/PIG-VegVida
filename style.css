@@ -9,6 +9,7 @@ html {
 
 a {
   text-decoration: none !important;
+  color: inherit;
 }
 
 a.active {
